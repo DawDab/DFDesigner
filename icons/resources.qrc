@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>help-circle.svg</file>
+    <file>menu.svg</file>
+    <file>minus.svg</file>
+    <file>resize2-svgrepo-com.svg</file>
+    <file>save.svg</file>
+    <file>slack.svg</file>
+    <file>sliders.svg</file>
+    <file>square.svg</file>
+    <file>x.svg</file>
+    <file>align-justify.svg</file>
+    <file>chevron-left.svg</file>
+  </qresource>
+</RCC>
