@@ -1,0 +1,93 @@
+{
+  "QMainWindow": [
+    {
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "sizeGrip",
+      "navigation": [
+        {
+          "minimize": "minimizeButton",
+          "close": "closeButton",
+          "restore": [
+            {
+              "buttonName": "restoreButton",
+              "normalIcon": ":/icons/square.svg",
+              "maximizedIcon": ":/icons/copy.svg"
+            }
+          ],
+          "moveWindow": "headerContainer"
+
+        }
+      ]
+    }
+  ],
+  "QCustomSlideMenu": [
+    {
+      "name": "leftMenuContainer",
+      "defaultSize": [
+        {
+          "width": 45,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 45,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 155,
+          "height": "parent"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "menuButton",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/icons/align-justify.svg",
+              "whenMenuIsExpanded": ":/icons/chevron-left.svg"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    }
+  ],
+  "QStackedWidget": [
+    {
+      "name": "mainMenu",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "specificationButton": "specificationPage",
+              "coefficientsButton": "coefficientsPage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+	"QPushButtonGroup": [
+		{
+			"Buttons": [
+				"specificationButton",
+				"coefficientsButton"
+
+			],
+			"Style":[{
+				"Active": "background-color: #d7ffd9;",
+				"NotActive": ""
+			}]
+		}
+	]
+
+}
